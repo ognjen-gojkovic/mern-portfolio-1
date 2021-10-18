@@ -45,7 +45,7 @@ const MainContentStyled = styled.main`
   .lines {
     width: 100%;
     position: absolute;
-    min-height: 100vh;
+    min-height: 100%;
     display: flex;
     justify-content: space-evenly;
     z-index: -100;
