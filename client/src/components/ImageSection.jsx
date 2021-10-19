@@ -49,6 +49,14 @@ const ImageSectionStyled = styled.div`
   width: 100%;
   height: 100%;
 
+  @media screen and (max-width: 1200px) {
+    flex-direction: column;
+
+    .left-content {
+      margin-bottom: 2rem;
+    }
+  }
+
   .left-content {
     width: 100%;
     height: 80vh;
