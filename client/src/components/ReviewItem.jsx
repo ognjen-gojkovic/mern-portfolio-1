@@ -14,22 +14,19 @@ const ReviewItemStyled = styled.div`
   border-left: 6px solid var(--border-color);
   background-color: var(--background-dark-grey);
   position: relative;
-  width: 50%;
+  width: 100%;
   &:not(:first-child) {
-    margin-left: 2rem;
   }
   &::after {
     content: "";
     position: absolute;
     left: 2rem;
+    border-width: 0.8rem;
     top: 100%;
-    bottom: 0;
     border-style: solid;
-    border-width: 0.7rem;
     border-color: var(--background-dark-grey) transparent transparent
       var(--background-dark-grey);
   }
-
   p {
     padding: 1rem 0;
   }

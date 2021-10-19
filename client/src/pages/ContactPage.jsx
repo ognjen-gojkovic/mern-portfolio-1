@@ -34,11 +34,11 @@ const ContactPage = () => {
                 <label htmlFor="subject">Enter subject:</label>
                 <input type="text" id="subject" />
               </div>
-              <div className="text-area">
+              <div className="textarea">
                 <label htmlFor="text-area">Enter your message:</label>
                 <textarea name="textarea" id="textarea"></textarea>
               </div>
-              <div className="form-field">
+              <div className="form-field f-button">
                 <PrimaryButton title="Send Email" />
               </div>
             </form>
@@ -80,6 +80,18 @@ const ContactPageStyled = styled.section`
         margin-bottom: 3rem;
       }
     }
+
+    .left-content {
+      .textarea {
+        display: flex;
+        flex-direction: column;
+
+        label {
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+
     .right-content {
       display: grid;
       grid-template-columns: repeat(1, 1fr);

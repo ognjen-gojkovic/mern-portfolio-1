@@ -101,7 +101,7 @@ const NavigationStyled = styled.nav`
           transition: all 0.3s cubic-bezier(1, -0.2, 0.25, 0.95);
           transform-origin: right;
           opacity: 0.2;
-          z-index: 10;
+          z-index: -1;
         }
       }
       a:hover::before {
